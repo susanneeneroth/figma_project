@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .header-style {
@@ -14,7 +15,7 @@ body {
 }
 
 .navigation-container li {
-    display: inline;
+    display: inline-block;
 }
 
 .navigation-container a {
@@ -158,13 +159,14 @@ img.arrow {
     width: 600px;
     margin: 0 auto;
     text-align: center;
+    padding-left: 120px;
 }
 
 .design-tools-flex {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 120px;
     justify-content: center;
 }
 
@@ -212,7 +214,7 @@ img.arrow {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 50px 0 150px 0;
+    padding: 50px 120px 150px 120px;
     justify-content: center;
 }
 
@@ -220,7 +222,7 @@ img.arrow {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 120px 150px 120px;
     justify-content: center;
 }
 
@@ -265,7 +267,7 @@ img.arrow {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 150px 0 150px 0;
+    padding: 50px 120px 150px 120px;
     justify-content: center;
 }
 
@@ -278,7 +280,7 @@ img.arrow {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 120px 50px 120px;
     justify-content: center;
 }
 

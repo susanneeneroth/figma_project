@@ -1,0 +1,18 @@
+.wrap {
+    width: 1200px;
+    height: 500px;
+}
+
+.inlinebox_1 {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    background-color: pink;
+}
+
+.inlinebox_2 {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+}
