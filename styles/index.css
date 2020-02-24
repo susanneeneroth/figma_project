@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 .header-style {
@@ -9,6 +9,8 @@ body {
     align-items: center;
     padding: 30px 120px;
 }
+
+/* navigation */
 
 .navigation-container {
     text-align: right;
@@ -49,7 +51,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
    
-
+/* headings */
 h1.main-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -88,6 +90,7 @@ h5.fifth-heading {
     font-weight: 700;
 }
 
+/* First container */
 .design-thinking-container {
     display: grid;
     grid-template-columns: 600px 600px;
@@ -155,6 +158,7 @@ img.arrow {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Second container */
 .design-tools-container {
     width: 600px;
     margin: 0 auto;
@@ -210,6 +214,7 @@ img.arrow {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Third container */
 .design-prof-container {
     display: flex;
     width: 1200px;
@@ -218,6 +223,7 @@ img.arrow {
     justify-content: center;
 }
 
+/* Fourth container */
 .design-product-container {
     display: flex;
     width: 1200px;
@@ -263,6 +269,7 @@ img.arrow {
     align-items: center;
 }
 
+/* Fifth and last container */
 .marketer-container {
     display: flex;
     width: 1200px;
@@ -271,6 +278,7 @@ img.arrow {
     justify-content: center;
 }
 
+/* Footer */
 .footer-divider {
     border-top: 1px solid #BCD0E5;
     width: 1200px;
